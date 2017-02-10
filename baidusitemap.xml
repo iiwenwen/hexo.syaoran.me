@@ -4,7 +4,29 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/02/09/blgo/</loc>
+    <loc>http://yoursite.com/2017/02/10/blog02/</loc>
+    <lastmod>2017-02-10T13:14:58.071Z</lastmod>
+    <data>
+        <display>
+        <title>博客的搭建(一)</title>
+        <pubTime>2017-02-10T11:09:42.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>next</tag>
+         
+         
+           
+             
+              <breadCrumb title="博客" url="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/02/09/blog01/</loc>
     <lastmod>2017-02-09T11:39:05.051Z</lastmod>
     <data>
         <display>
