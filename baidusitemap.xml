@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/02/09/blgo/</loc>
+    <lastmod>2017-02-09T11:39:05.051Z</lastmod>
+    <data>
+        <display>
+        <title>关于建立博客过程中不得不说的血泪史</title>
+        <pubTime>2017-02-09T09:23:18.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>next</tag>
+         
+         
+           
+             
+              <breadCrumb title="博客" url="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2017/02/07/hello-world/</loc>
+    <lastmod>2017-02-07T10:44:34.594Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-02-07T10:44:34.593Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
