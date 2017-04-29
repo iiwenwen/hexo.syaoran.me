@@ -1688,7 +1688,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cb81ff;
+  background: #ff9c28;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2563,9 +2563,6 @@ Custom styles.,
 }
 .ds-top-threads li a:hover {
   border-left: 8px solid #4d768c;
-}
-.header {
-  background: none;
 }
 .site-meta {
   float: none;
