@@ -63,12 +63,18 @@
 	        
 				<li><a href="/categories/write/">写作</a></li>
 	        
+				<li><a href="/doing/">在干嘛</a></li>
+	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -82,10 +88,6 @@
 					<a class="github" target="_blank" href="https://github.com/myerandme" title="github"><i class="icon-github"></i></a>
 		        
 					<a class="weibo" target="_blank" href="https://weibo.com/u/5845907282/home?topnav=1&wvr=6" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="qq" target="_blank" href="/1132334806" title="qq"><i class="icon-qq"></i></a>
-		        
-					<a class="weixin" target="_blank" href="/dabuxiongwawa" title="weixin"><i class="icon-weixin"></i></a>
 		        
 					<a class="jianshu" target="_blank" href="https://www.jianshu.com/u/f147b6fa559d" title="jianshu"><i class="icon-jianshu"></i></a>
 		        
@@ -121,6 +123,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -129,10 +133,6 @@
 						<a class="github" target="_blank" href="https://github.com/myerandme" title="github"><i class="icon-github"></i></a>
 			        
 						<a class="weibo" target="_blank" href="https://weibo.com/u/5845907282/home?topnav=1&wvr=6" title="weibo"><i class="icon-weibo"></i></a>
-			        
-						<a class="qq" target="_blank" href="/1132334806" title="qq"><i class="icon-qq"></i></a>
-			        
-						<a class="weixin" target="_blank" href="/dabuxiongwawa" title="weixin"><i class="icon-weixin"></i></a>
 			        
 						<a class="jianshu" target="_blank" href="https://www.jianshu.com/u/f147b6fa559d" title="jianshu"><i class="icon-jianshu"></i></a>
 			        
@@ -143,11 +143,13 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags/InformalEssay/">随笔</a></li>
+					<li style="width: 25%"><a href="/tags/InformalEssay/">随笔</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/categories/write/">写作</a></li>
+					<li style="width: 25%"><a href="/categories/write/">写作</a></li>
+		        
+					<li style="width: 25%"><a href="/doing/">在干嘛</a></li>
 		        
 				</ul>
 			</nav>
@@ -179,14 +181,14 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
-	      	<a href="/posts/StudySimon01.html" class="archive-article-date">
+	      	<a href="/blgo/StudySimon01.html" class="archive-article-date">
   	<time datetime="2017-08-19T13:15:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-19</time>
 </a>
         </div>
     	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/posts/StudySimon01.html">《穿越歧路花园：司马贺的变量与不变量》</a>
+      <a class="archive-article-title" href="/blgo/StudySimon01.html">《穿越歧路花园：司马贺的变量与不变量》</a>
     </h1>
   
 
@@ -217,14 +219,14 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
-	      	<a href="/posts/MasterSimon.html" class="archive-article-date">
+	      	<a href="/blgo/MasterSimon.html" class="archive-article-date">
   	<time datetime="2017-07-27T12:22:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-27</time>
 </a>
         </div>
     	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/posts/MasterSimon.html">向大佬学习之西蒙</a>
+      <a class="archive-article-title" href="/blgo/MasterSimon.html">向大佬学习之西蒙</a>
     </h1>
   
 
@@ -307,17 +309,25 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
+      
+      
+      
+    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      
+        
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -388,6 +398,22 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     	</section>
     
 
+    
+    	<section class="tools-section tools-section-friends" q-show="friends">
+  		
+        <ul class="search-ul">
+          
+            <li class="search-li">
+              <a href="http://www.cnfeat.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>笨方法学写作</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://www.yangzhiping.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>阳志平的网志</a>
+            </li>
+          
+        </ul>
+  		
+    	</section>
     
 
     
