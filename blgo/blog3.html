@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://blgo.syaoran.me">
   <title>博客的建立(二) | Syaoran</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="建立github pages这里默认已经有github帐号了，在你的giehub上新建一个repo名字是yourname.gilthub.io其中yourname是你的github帐号的用户名比如我的myerandme.github.io。将你的博客关联到你的github psges #### 修改配置在你的hexo目录下有_config.yml打开后拉到最下面添加以下内容(请注意以后再_conf">
+  <meta name="description" content="建立github pages这里默认已经有github帐号了，在你的giehub上新建一个repo名字是yourname.gilthub.io其中yourname是你的github帐号的用户名比如我的myerandme.github.io。将你的博客关联到你的github psges #### 修改配置在你的hexo目录下有_config.yml打开后拉到最下面添加以下内容(请注意以后再_con">
 <meta property="og:type" content="article">
 <meta property="og:title" content="博客的建立(二)">
 <meta property="og:url" content="http://blgo.syaoran.me/blgo/blog3.html">
 <meta property="og:site_name" content="Syaoran">
-<meta property="og:description" content="建立github pages这里默认已经有github帐号了，在你的giehub上新建一个repo名字是yourname.gilthub.io其中yourname是你的github帐号的用户名比如我的myerandme.github.io。将你的博客关联到你的github psges #### 修改配置在你的hexo目录下有_config.yml打开后拉到最下面添加以下内容(请注意以后再_conf">
+<meta property="og:description" content="建立github pages这里默认已经有github帐号了，在你的giehub上新建一个repo名字是yourname.gilthub.io其中yourname是你的github帐号的用户名比如我的myerandme.github.io。将你的博客关联到你的github psges #### 修改配置在你的hexo目录下有_config.yml打开后拉到最下面添加以下内容(请注意以后再_con">
 <meta property="og:image" content="http://p1.bpimg.com/567571/19772c56b391d3f8.png">
 <meta property="og:image" content="http://p1.bpimg.com/567571/21ecdd3486c866d5.png">
-<meta property="og:updated_time" content="2018-01-20T07:36:22.088Z">
+<meta property="og:updated_time" content="2018-04-09T13:30:00.744Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="博客的建立(二)">
-<meta name="twitter:description" content="建立github pages这里默认已经有github帐号了，在你的giehub上新建一个repo名字是yourname.gilthub.io其中yourname是你的github帐号的用户名比如我的myerandme.github.io。将你的博客关联到你的github psges #### 修改配置在你的hexo目录下有_config.yml打开后拉到最下面添加以下内容(请注意以后再_conf">
+<meta name="twitter:description" content="建立github pages这里默认已经有github帐号了，在你的giehub上新建一个repo名字是yourname.gilthub.io其中yourname是你的github帐号的用户名比如我的myerandme.github.io。将你的博客关联到你的github psges #### 修改配置在你的hexo目录下有_config.yml打开后拉到最下面添加以下内容(请注意以后再_con">
 <meta name="twitter:image" content="http://p1.bpimg.com/567571/19772c56b391d3f8.png">
   
     <link rel="alternative" href="/atom.xml" title="Syaoran" type="application/atom+xml">
@@ -188,7 +188,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="建立github-pages"><a href="#建立github-pages" class="headerlink" title="建立github pages"></a>建立github pages</h3><p>这里默认已经有github帐号了，在你的giehub上新建一个repo名字是<code>yourname.gilthub.io</code>其中<code>yourname</code>是你的github帐号的用户名比如我的<code>myerandme.github.io</code>。<br>将你的博客关联到你的github psges #### 修改配置<br>在你的hexo目录下有<code>_config.yml</code>打开后拉到最下面添加以下内容(请注意以后再<code>_config.yml</code>中添加内容冒号后面一定要加空格不然会渲染时报错)</p>
+        <a id="more"></a>
+<h3 id="建立github-pages"><a href="#建立github-pages" class="headerlink" title="建立github pages"></a>建立github pages</h3><p>这里默认已经有github帐号了，在你的giehub上新建一个repo名字是<code>yourname.gilthub.io</code>其中<code>yourname</code>是你的github帐号的用户名比如我的<code>myerandme.github.io</code>。<br>将你的博客关联到你的github psges #### 修改配置<br>在你的hexo目录下有<code>_config.yml</code>打开后拉到最下面添加以下内容(请注意以后再<code>_config.yml</code>中添加内容冒号后面一定要加空格不然会渲染时报错)</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">eploy: type: git repository:</div><div class="line">git@github.com:yourname/yourname.github.io.git # 这里yourname还是你的github用户名</div><div class="line">branch: master</div></pre></td></tr></table></figure>
 <h4 id="关联ssh-key"><a href="#关联ssh-key" class="headerlink" title="关联ssh key"></a>关联ssh key</h4><p>如果你是第一次用git的话就看看你的<code>C:\Users\liuwenlong\</code>(这里的liuwenlong是我自己的用户名)下有没有.ssh目录有的话就就直接把<code>.ssh</code>下的<code>id_ras.pub</code>里的内容复制并添加到github上的仓库里的密钥中<br><img src="http://p1.bpimg.com/567571/19772c56b391d3f8.png" alt=""> 选择右边的齿轮(设置)<br><img src="http://p1.bpimg.com/567571/21ecdd3486c866d5.png" alt=""><br>在左边选择有keys的选项，里面出现里add点击添加。在出现的页面中，little一栏随便写，把你的复制的内容粘帖到下面的框框中并打勾，确定。<br>如果你的用户名目录下没有<code>.ssh</code>这个文件夹那么输入以下命令 <figure class="highlight plain"><figcaption><span>-t rsa -C"git@github.com" ```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">这里邮箱地址就是你建立github用的地址了，然后一路回车到最后。你就能看见你的`.ssh`了验证ssh key 输入以下命令</div><div class="line"> ```ssh -T git@github.com</div></pre></td></tr></table></figure></p>
 <p> 然后再一路回车，到出现下面的就说明你成功了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Hi yourusername! You&apos;ve</div><div class="line">successfully authenticated, but GitHub does not provide shell access.</div><div class="line">`</div></pre></td></tr></table></figure></p>
@@ -423,11 +424,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">情感</a>
+                <a href="javascript:void(0)" class="js-tag color3">工作</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">工作</a>
+                <a href="javascript:void(0)" class="js-tag color3">情感</a>
               </li>
             
             <div class="clearfix"></div>
