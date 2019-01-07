@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blgo.syaoran.me/blgo/Reason.html</loc>
+    
+    <lastmod>2019-01-07T14:23:38.089Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blgo.syaoran.me/blgo/Community15Ask.html</loc>
     
     <lastmod>2019-01-07T13:54:41.283Z</lastmod>
@@ -44,7 +51,7 @@
   </url>
   
   <url>
-    <loc>http://blgo.syaoran.me/blgo/2SurprisesIn2018.html</loc>
+    <loc>http://blgo.syaoran.me/blgo/SurprisesIn2018.html</loc>
     
     <lastmod>2019-01-06T15:06:57.056Z</lastmod>
     
@@ -68,13 +75,6 @@
     <loc>http://blgo.syaoran.me/blgo/StoryOfTime.html</loc>
     
     <lastmod>2018-10-23T06:50:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blgo.syaoran.me/blgo/Reason.html</loc>
-    
-    <lastmod>2018-10-23T06:50:11.000Z</lastmod>
     
   </url>
   
